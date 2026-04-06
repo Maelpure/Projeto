@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastro de Participante</h1>
+    <a href="#informacoes-basicas">Informações Básicas</a> |
+    <a href="#Preferência">Preferências</a> |
+    <a href="#observacoes">Observações</a>
+    <hr>
+    <fieldset>
+
+        <legend id="informacoes-basicas">Informações Básicas</legend><br>
+
+        <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+        <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+        <label for="telefone">Telefone:</label><br>
+            <input type="tel" id="telefone" name="telefone"><br><br>
+        <label for="CPF">CPF:</label><br>
+            <input type="tel" id="CPF" name="CPF" required><br><br>
+    </fieldset>
+
+    <fieldset>
+
+        <legend id="Preferência">Preferências</legend><br>
+
+        <label for="preferencia">Área de Interesse:</label><br><br>
+            <label><input type="radio" name="preferencia" value="inteligencia-artificial"> Inteligência Artificial</label><br>
+            <label><input type="radio" name="preferencia" value="desenvolvimento-web"> Desenvolvimento Web</label><br>
+            <label><input type="radio" name="preferencia" value="games"> Games</label><br><br>
+        <label for="topicos">Selecione os tópicos adicionais desejados:</label><br><br>
+                <input type="checkbox" id="topicos" name="topicos" value="Machine Learning">
+            <label for="topicos">Machine Learning</label><br>
+                <input type="checkbox" id="topicos" name="topicos" value="Cloud">
+            <label for="topicos">Cloud</label><br>
+                <input type="checkbox" id="topicos" name="topicos" value="IoT">
+            <label for="topicos">IoT</label><br>
+    </fieldset>
+
+    <fieldset>
+        <legend id="observacoes">Observações</legend>
+        <textarea id="observacoes" name="observacoes" rows="4" cols="50"></textarea>
+    </fieldset>
+    <br>
+    <button type="submit">Enviar Cadastro</button>
+    <hr>
+    &copy; 2026 - Evento Acadêmico
+    <hr>
+    <br><br>
+    <h2>Resto da Atividade</h2>
+    <ol>
+        <li><h3><a href="eciclopedia.html">Enciclopédia de Tecnologia</a></h3></li>
+        <li><h3><a href="painel.html">Painel Administrativo</a></h3></li>
+    </ol>
+</body>
+</html>

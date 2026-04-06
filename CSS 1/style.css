@@ -1,0 +1,118 @@
+.header1{
+    background-color: rgb(189, 189, 189);
+    color: black;
+    justify-self: center;
+    text-align: center;
+    width: 100%;
+}
+
+.nav1{
+    background-color:rgb(124, 124, 124);
+    text-align: center;
+    justify-self: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.main1{
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 2%;
+    width: 40%;
+    justify-self: center;
+}
+
+.footer1{
+    background-color: rgb(189, 189, 189);
+    padding: 3%;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5%;
+}
+
+body{
+    background-color: rgb(189, 189, 189);;
+}
+
+.header2{
+    background-color: rgb(124, 124, 124);
+    padding: 2%;
+    text-align: center;
+    justify-self: center;
+    width: 43%;
+    border-radius: 10px;
+    color: white;
+}
+
+.nav2{
+    background-color:rgb(124, 124, 124);
+    color: white;
+    text-align: center;
+    justify-self: center;
+    border-radius: 10px;
+    padding: 0.5%;
+    position: sticky;
+    top: 0;
+    margin-top: 10px;
+    width: 46%;
+}
+
+.main2{
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 2%;
+    width: 43%;
+    border-radius: 10px;
+    margin-top: 10px;
+    justify-self: center;
+}
+
+.main2 table{
+    text-align: center;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.main2 img{
+    border-radius: 10px;
+}
+
+.footer2{
+    background-color: rgb(124, 124, 124);
+    padding: 3%;
+    color: white;
+    width: 41%;
+    border-radius: 10px;
+    justify-self: center;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.main3 {
+    background-color: white;
+    color: black;
+    text-align: left;
+    justify-self: center;
+    border-radius: 10px;
+    padding: 2%;
+    width: 10%;
+    height: 290px;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.nav2 :hover{
+    color: royalblue;
+}
+.nav1 :hover{
+    color: royalblue;
+}
