@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar com Desconto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body3">
+    <div class="topo">
+        <header>
+            <a href="index.html"><img src="Imagens Index\Logo.png" alt="Logo" width="70"></a>
+        </header>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="idade.html">Idade</a>
+            <a href="desconto.html">Desconto</a>
+            <a href="avaliacao.html">Avaliação</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </div>
+    <main class="maindesconto">
+        <div class="divdesconto">
+        <h1>Calculadora de Desconto</h1>
+        <h3>Insira o valor original do produto abaixo:</h3>
+        <input type="text" id="pre" placeholder="Digite aqui..." class="inputdesconto">
+        <h3>Você é vip?</h3>
+        <input type="text" id="desc" placeholder="Digite aqui..." class="inputdesconto">
+        <h3>Possui cupom de desconto?</h3>
+        <input type="text" id="cupom" placeholder="Digite aqui..." class="inputdesconto"><br>
+        <p id="resultado"></p>
+        <button onclick="calcular()" class="buttondesconto">Calcular Desconto</button>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
