@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Cadastro de Produtos</h1>
+    </header>
+
+    <nav>
+    </nav>
+
+    <main>
+        
+        <div class="addpro">
+            <label for="produto">Produto:</label><br>
+            <input type="text" id="produto" placeholder="Digite aqui..."><br>
+            <label for="preco">Preço do produto:</label><br>
+            <input type="number" id="preco" placeholder="Digite aqui..."><br>
+            <p id="mensagem"></p>
+            <button onclick="adicionar()">Adicionar produto</button>
+            <button onclick="limpar()">Remover ultimo produto</button><br><br>
+            <button onclick="mostrar()">Cadastrar produto</button>
+        </div>
+        <h2>Produtos cadastrados</h2>
+        <ul id="lista"></ul>
+        <h2>Quantidade de produtos</h2>
+        <p id="quantidade"></p>
+        <h2>Valor total dos produtos</h2>
+        <p id="total"></p>
+        <h2>Produto mais caro</h2>
+        <p id="caro"></p>
+        <h2>Produto mais barato</h2>
+        <p id="barato"></p>
+    </main>
+    <footer>
+
+    </footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+header {
+    color: white;
+    background-color: crimson;
+    text-align: center;
+    padding: 5px;
+}
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.addpro {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    justify-self: center;
+    margin-top: 50px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+input {
+    padding: 8px;
+    width: 380px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+label {
+    font-size: x-large;
+}
+button {
+    padding: 15px;
+    margin-top: 15px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: rgb(51, 184, 39);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bttn {
+    justify-self: center;
+}
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
