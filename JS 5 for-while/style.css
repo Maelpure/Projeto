@@ -1,0 +1,145 @@
+
+header {
+    background-color: black;
+    color: purple;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 13px;
+    position: fixed;
+    width: 100%;
+}
+nav a {
+    color: purple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: purple;
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.textini {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    justify-self: center;
+    width: 40%;
+}
+.mainindex {
+    background-color: black;
+}
+footer {
+    background-color: black;
+    color: purple;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+h4 {
+    text-decoration: underline;
+}
+
+
+.mainestoque {
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.Ver {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+}
+.ul {
+    font-size: x-large;
+    width: 210px;
+    text-align: left;
+    justify-self: center;
+}
+
+
+.maincaixa {
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.bcalcular {
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+}
+
+
+.mainsenha {
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.acessar {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+}
+
+
+.mainnotas {
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.tabela {
+    justify-self: center;
+    margin-top: 30px
+}
+.tabela1 {
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    border: 1px solid purple;
+    padding: 8px;
+    margin-left: 100px;
+}
+
+.tr2 {
+    gap: 100px;
+}
+
+
+.mainconferencia {
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.bconferir {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+}

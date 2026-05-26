@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript - For e While</h1>
+    </header>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="estoque.html">Estoque</a>
+        <a href="caixa.html">Caixa</a>
+        <a href="senha.html">Senha</a>
+        <a href="notas.html">Notas</a>
+        <a href="conferencia.html">Conferência</a>
+    </nav>
+    <main class="mainnotas">
+        <h1>Sistema de Relatório de Notas</h1>
+        <p>O sistema gera automaticamente um relatório completo da turma, reunindo informações importantes de forma organizada e prática. Nesse relatório, podem ser apresentados dados como lista de alunos, frequência, desempenho, notas e outras informações relevantes para acompanhamento acadêmico. A geração automática do relatório facilita a análise dos dados, otimiza o trabalho dos responsáveis e contribui para um gerenciamento mais eficiente da turma.</p>
+        <p>👇 Clique no botão abaixo para acessar o relatório de notas da turma: 👇</p>
+        <button onclick="gerarnotas()" class="bcalcular">Gerar Relatório de Notas</button>
+        <div class="tabela">
+            <table id="tabela" class="tabela1">
+            <thead>
+                <tr id="th" class="tr1">
+                    <th class="th1"></th>
+                    <th class="th1"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="relatorio" class="tr2">
+                </tr>
+            </tbody>
+            </table>
+        </div>
+        <p id="media"></p>
+    </main>
+    <footer>
+        <h4>&copy; Emanuel Lopes de Oliveira Peixoto - Programador Web 2026</h4>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+

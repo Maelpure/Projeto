@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JavaScript - For e While</h1>
+    </header>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="estoque.html">Estoque</a>
+        <a href="caixa.html">Caixa</a>
+        <a href="senha.html">Senha</a>
+        <a href="notas.html">Notas</a>
+        <a href="conferencia.html">Conferência</a>
+    </nav>
+    <main class="maincaixa">
+        <h1>Sistema de Caixa</h1>
+        <p>O sistema realiza automaticamente a soma de todos os produtos incluídos na compra, calculando o valor total do pedido de forma rápida e precisa. Cada item adicionado ao carrinho tem seu preço considerado no cálculo, levando em conta também a quantidade selecionada de cada produto. Dessa forma, o sistema garante maior agilidade no processo de compra, reduzindo erros manuais e proporcionando mais controle e transparência sobre o valor final da aquisição.</p>
+            <p>👇 Selecione os produtos abaixo para calcular o valor total da compra: 👇</p>
+        <input type="checkbox" id="produto1" value="80">
+        <label>Mouse - R$ 80,00</label><br>
+        <input type="checkbox" id="produto2" value="100">
+        <label>Teclado - R$ 100,00</label><br>
+        <input type="checkbox" id="produto3" value="500">
+        <label>Monitor - R$ 500,00</label><br>
+        <input type="checkbox" id="produto4" value="200">
+        <label>Gabinete - R$ 200,00</label><br>
+        <input type="checkbox" id="produto5" value="800">
+        <label>Placa de Vídeo - R$ 800,00</label><br>
+        <button onclick="calcularprodutos()" class="bcalcular">Calcular Total</button>
+        <p id="total"></p>
+
+    </main>
+    <footer>
+        <h4>&copy; Emanuel Lopes de Oliveira Peixoto - Programador Web 2026</h4>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
